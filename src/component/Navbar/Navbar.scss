@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  width: 100vw;
+  margin: 0 auto;
+  max-width: 95%;
+  align-items: center;
+  position: sticky;
+  z-index: 3;
+  padding: 1rem 2rem;
+  top: 0;
+
+  .logo {
+    object-fit: cover;
+    height: 3rem;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .menus {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 18px;
+    cursor: pointer;
+
+    // .menus:hover{
+    //     color:  yellow;
+    //     padding-bottom: 0.5rem;
+    //     border-bottom: 2px solid yellow;
+    //  }
+
+    .MenuItems {
+      margin-right: 20px;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .MenuItems:hover {
+      color: yellow;
+      padding-bottom: 0.5rem;
+          border-bottom: 2px solid yellow; /* Change to your desired hover color */
+    }
+  }
+}
